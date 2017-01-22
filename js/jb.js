@@ -1,9 +1,9 @@
 document.addEventListener( 'DOMContentLoaded', function () {
     particleground( document.getElementById( 'particles' ), {
-        //dotColor: '#d3d3d3',
-        dotColor: '#bfbebe',
-        //lineColor: '#d3d3d3',
-        lineColor: '#bfbebe',
+        //dotColor: '#bfbebe',
+        dotColor: '#e6e6e6',
+        //lineColor: '#bfbebe',
+        lineColor: '#e6e6e6',
         minSpeedX: 0.2,
         maxSpeedX: 1.0,
         minSpeedY: 0.2,
