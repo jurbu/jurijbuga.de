@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
-    particleground(document.getElementById('particles'), {
+document.addEventListener( 'DOMContentLoaded', function () {
+    particleground( document.getElementById( 'particles' ), {
         //dotColor: '#d3d3d3',
         dotColor: '#bfbebe',
         //lineColor: '#d3d3d3',
@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
         parallax: true,
         parallaxMultiplier: 5 // The lower the number, the more extreme the parallax effect wil be.
     });
-    var intro = document.getElementById('intro');
+    var intro = document.getElementById( 'intro' );
     intro.style.marginTop = -intro.offsetHeight / 2 + 'px';
-}, false);
-document.oncontextmenu = function() {
+}, false );
+document.oncontextmenu = function () {
     return false;
 };
