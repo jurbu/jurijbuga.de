@@ -45,7 +45,7 @@ hr {
 }
 
 .hr-line {
-    width: 15%;
+    width: 25%;
 }
 
 h1 {
@@ -70,6 +70,7 @@ p {
 
 .social-media a {
     color: #141823;
+    text-decoration: none;
 }
 
 .social-media i {

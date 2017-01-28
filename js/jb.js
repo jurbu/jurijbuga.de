@@ -26,3 +26,17 @@ document.addEventListener( 'DOMContentLoaded', function () {
 document.oncontextmenu = function () {
     return false;
 };
+
+function animateMe( docid, effect ) {
+    var classList = document.getElementById( docid ).classList;
+    if ( classList.contains( "animated" ) == false ) {
+        classList.add( "animated" );
+        classList.add( effect );
+        document.getElementById( docid ).classList = classList;
+    } else {
+        classList.remove( "animated" );
+        classList.remove( effect );
+        document.getElementById( docid ).classList = classList;
+    }
+}
+
